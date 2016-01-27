@@ -18,6 +18,12 @@ public final class Student {
 	private String lastName;
 	private String phoneNumber;
 
+	public Student(int rollNumber, String firstName, String lastName) {
+		this.rollNumber = rollNumber;
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
 	public int getRollNumber() {
 		return rollNumber;
 	}
