@@ -1,7 +1,7 @@
 package com.github.kunalherkal.goodcode;
 
-import com.github.kunalherkal.goodcode.dao.StudentDao;
-import com.github.kunalherkal.goodcode.dao.hibernate.StudentHibernateDao;
+import com.github.kunalherkal.goodcode.models.dao.StudentDao;
+import com.github.kunalherkal.goodcode.models.dao.hibernate.StudentHibernateDao;
 import com.github.kunalherkal.goodcode.views.Home;
 import com.google.inject.AbstractModule;
 import com.google.inject.Singleton;

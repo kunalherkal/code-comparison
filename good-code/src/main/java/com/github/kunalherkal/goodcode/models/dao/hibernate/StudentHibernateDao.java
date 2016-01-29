@@ -1,11 +1,11 @@
-package com.github.kunalherkal.goodcode.dao.hibernate;
+package com.github.kunalherkal.goodcode.models.dao.hibernate;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 
-import com.github.kunalherkal.goodcode.Student;
-import com.github.kunalherkal.goodcode.dao.StudentDao;
 import com.github.kunalherkal.goodcode.hibernate.HibernateUtil;
+import com.github.kunalherkal.goodcode.models.Student;
+import com.github.kunalherkal.goodcode.models.dao.StudentDao;
 
 public final class StudentHibernateDao implements StudentDao {
 

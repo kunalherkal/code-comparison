@@ -1,4 +1,4 @@
-package com.github.kunalherkal.goodcode;
+package com.github.kunalherkal.goodcode.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

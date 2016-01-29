@@ -2,8 +2,8 @@ package com.github.kunalherkal.goodcode.views;
 
 import javax.swing.JOptionPane;
 
-import com.github.kunalherkal.goodcode.Student;
-import com.github.kunalherkal.goodcode.dao.StudentDao;
+import com.github.kunalherkal.goodcode.models.Student;
+import com.github.kunalherkal.goodcode.models.dao.StudentDao;
 import com.google.inject.Inject;
 
 public class Home extends javax.swing.JFrame {
