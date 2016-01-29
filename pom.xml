@@ -10,5 +10,6 @@
   <modules>
   	<module>good-code</module>
   	<module>bad-code</module>
+  	<module>small-examples</module>
   </modules>
 </project>
