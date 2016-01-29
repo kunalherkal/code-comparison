@@ -1,9 +1,17 @@
-package com.github.kunalherkal.smallexamples.privatefields;
+package com.github.kunalherkal.smallexamples.finalfields;
 
-final class GoodStudent {
+final class Student {
+	private final String studentId;
 	private String rollNumber;
 	private String firstName;
 	private String lastName;
+
+	public Student(String studentId, String rollNumber, String firstName, String lastName) {
+		this.studentId = studentId;
+		this.rollNumber = rollNumber;
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
 
 	public String getRollNumber() {
 		return rollNumber;
@@ -31,7 +39,7 @@ final class GoodStudent {
 
 	@Override
 	public String toString() {
-		return "GoodStudent [rollNumber=" + rollNumber + ", firstName=" + firstName + ", lastName=" + lastName + "]";
+		return "Student [studentId=" + studentId + ", rollNumber=" + rollNumber + ", firstName=" + firstName
+				+ ", lastName=" + lastName + "]";
 	}
-
 }

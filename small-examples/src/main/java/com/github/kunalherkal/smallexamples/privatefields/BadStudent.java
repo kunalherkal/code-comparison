@@ -1,6 +1,6 @@
 package com.github.kunalherkal.smallexamples.privatefields;
 
-public class BadStudent {
+class BadStudent {
 	public String rollNumber;
 	public String firstName;
 	public String lastName;

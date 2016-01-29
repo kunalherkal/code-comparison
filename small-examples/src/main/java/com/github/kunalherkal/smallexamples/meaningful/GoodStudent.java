@@ -1,9 +1,15 @@
-package com.github.kunalherkal.smallexamples.privatefields;
+package com.github.kunalherkal.smallexamples.meaningful;
 
 final class GoodStudent {
 	private String rollNumber;
 	private String firstName;
 	private String lastName;
+
+	public GoodStudent(String rollNumber, String firstName, String lastName) {
+		this.rollNumber = rollNumber;
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
 
 	public String getRollNumber() {
 		return rollNumber;
