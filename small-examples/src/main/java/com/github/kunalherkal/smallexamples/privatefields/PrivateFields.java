@@ -1,3 +1,4 @@
+package com.github.kunalherkal.smallexamples.privatefields;
 
 public final class PrivateFields {
 	

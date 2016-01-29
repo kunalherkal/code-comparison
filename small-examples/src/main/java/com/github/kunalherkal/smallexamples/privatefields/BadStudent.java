@@ -1,3 +1,4 @@
+package com.github.kunalherkal.smallexamples.privatefields;
 
 public class BadStudent {
 	public String rollNumber;
