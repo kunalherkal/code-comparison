@@ -1,6 +1,6 @@
 package com.github.kunalherkal.smallexamples.privatefields;
 
-public final class PrivateFields {
+public final class PrivateFieldsDemo {
 
 	public static void main(String[] args) {
 		GoodStudent goodStudent = new GoodStudent();

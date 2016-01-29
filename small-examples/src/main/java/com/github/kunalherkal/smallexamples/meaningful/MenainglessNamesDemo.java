@@ -3,7 +3,7 @@ package com.github.kunalherkal.smallexamples.meaningful;
 import java.util.HashMap;
 import java.util.Map;
 
-public final class MenainglessNames {
+public final class MenainglessNamesDemo {
 
 	public static void main(String[] args) {
 		Map<String, BadStudent> map = new HashMap<String, BadStudent>();

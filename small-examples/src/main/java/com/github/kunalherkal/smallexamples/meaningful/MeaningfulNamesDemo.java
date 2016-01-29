@@ -3,7 +3,7 @@ package com.github.kunalherkal.smallexamples.meaningful;
 import java.util.HashMap;
 import java.util.Map;
 
-public final class MeaningfulNames {
+public final class MeaningfulNamesDemo {
 
 	public static void main(String[] args) {
 		Map<String, GoodStudent> rollNumberToStudent = new HashMap<String, GoodStudent>();
