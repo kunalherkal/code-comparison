@@ -4,7 +4,7 @@ import com.github.kunalherkal.goodcode.views.Home;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 
-public final class App {
+public final class GoodCodeDemo {
 
 	public static void main(String[] args) {
 		Injector injector = Guice.createInjector(new AppInjector());
